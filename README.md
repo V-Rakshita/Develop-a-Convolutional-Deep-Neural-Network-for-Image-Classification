@@ -10,27 +10,30 @@ Include the Problem Statement and Dataset.
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
 
-Write your own steps
+### STEP 1:
 
-### STEP 2: 
+Load the Fashion-MNIST dataset and prepare the images by converting them into tensors and normalizing the pixel values.
 
+### STEP 2:
 
+Create DataLoaders to divide the training and testing data into small batches for easier and faster processing.
 
-### STEP 3: 
+### STEP 3:
 
+Design a CNN model with three convolutional layers and max-pooling layers to extract important features from the images.
 
+### STEP 4:
 
-### STEP 4: 
+Add fully connected layers to classify the extracted features into one of the 10 Fashion-MNIST clothing categories.
 
+### STEP 5:
 
+Train the CNN using the Adam optimizer and Cross-Entropy Loss for multiple epochs so that the model learns from the training images.
 
-### STEP 5: 
+### STEP 6:
 
-
-
-### STEP 6: 
+Test the trained model using the test dataset and evaluate its performance using accuracy, confusion matrix, classification report, and sample image prediction.
 
 
 
